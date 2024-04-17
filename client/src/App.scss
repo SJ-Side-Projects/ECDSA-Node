@@ -49,6 +49,20 @@ input {
   font-size: 0.875rem;
 }
 
+// disabled input
+input:disabled {
+  background-color: grey;
+}
+
+select {
+  padding: 10px 10px;
+  border-radius: 0.125rem;
+  border: 1px solid rgb(226, 232, 240);
+  background-color: #fdfdfe;
+  padding-inline-start: 0.75rem;
+  font-size: 0.875rem;
+}
+
 .button {
   background-color: #319795;
   border-radius: 0.125rem;
